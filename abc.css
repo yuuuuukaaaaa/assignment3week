@@ -1,0 +1,54 @@
+/*ヘッダー*/
+.name{
+  color: #ffff00;
+  text-align: center;
+  font-size: 35px;
+  background-color: #00bfff;
+  margin-bottom: 20px;
+}
+
+
+
+/*左サイドバー*/
+.diary{
+  border: 0px solid;
+  font-size: 20px;
+}
+
+pre{
+  background-color: #ffffff;
+  border: 0px solid #ffffff;
+}
+
+/*メイン*/
+.main{
+  border: 1px solid #ccc;
+  margin-bottom: 3px;
+  padding-top: 18px;
+}
+
+.moji{
+  font-size: 20px;
+  color: #0000ff;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+p{
+  font-size: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+/*フッター*/
+.footer{
+  color:white;
+  text-align: center;
+  font-size: 13px;
+  background-color: #00bfff;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+
+}
