@@ -18,10 +18,13 @@
 pre{
   background-color: #ffffff;
   border: 0px solid #ffffff;
+  margin-left: -80px;
 }
 
 .month{
-  font-size: 15px;
+  font-size: 20px;
+  color: #0000ff;
+  font-weight: 1px;
 }
 
 /*メイン*/
