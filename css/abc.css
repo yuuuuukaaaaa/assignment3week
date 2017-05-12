@@ -15,6 +15,10 @@
   font-size: 20px;
 }
 
+.hello{
+  border-bottom:1px solid #CCC;
+}
+
 pre{
   background-color: #ffffff;
   border: 0px solid #ffffff;
@@ -25,6 +29,10 @@ pre{
   font-size: 20px;
   color: #0000ff;
   font-weight: 1px;
+  border-bottom:1px solid #CCC;
+  padding-left: 20px;
+  padding-right: 45px;
+
 }
 
 /*メイン*/
@@ -39,6 +47,8 @@ pre{
   color: #0000ff;
   padding-top: 10px;
   padding-left: 10px;
+  font-weight: bolder;
+  text-decoration: underline
 }
 
 p{
