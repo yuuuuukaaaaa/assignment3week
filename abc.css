@@ -20,6 +20,10 @@ pre{
   border: 0px solid #ffffff;
 }
 
+.month{
+  font-size: 15px;
+}
+
 /*メイン*/
 .main{
   border: 1px solid #ccc;
