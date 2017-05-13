@@ -1,3 +1,15 @@
+<?php 
+
+if (date("H") >= 6 and date("H") <= 11) {
+  echo "<p>おはようございます。</p>\n";
+} elseif (date("H") >= 12 and date("H") <= 17) {
+  echo "<p>こんにちは。</p>\n";
+} else {
+  echo "<p>こんばんは。</p>\n";
+}
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head >
