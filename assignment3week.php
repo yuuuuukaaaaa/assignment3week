@@ -1,15 +1,3 @@
-<?php 
-
-if (date("H") >= 6 and date("H") <= 11) {
-  echo "<p>おはようございます。</p>\n";
-} elseif (date("H") >= 12 and date("H") <= 17) {
-  echo "<p>こんにちは。</p>\n";
-} else {
-  echo "<p>こんばんは。</p>\n";
-}
-
- ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <head >
@@ -31,8 +19,17 @@ if (date("H") >= 6 and date("H") <= 11) {
 
 <!-- 左サイドバー -->
       <div class="diary col-xs-3">
-        <div class="hello">こんにちは、ゲストさん</div>
+
+        <div class="hello">
         <p>
+          <?php 
+          if (date("H") >= 6 and date("H") <= 11) {
+            echo "おはようございます\n";
+          } elseif (date("H") > 11 and date("H") < 18) {
+            echo "こんにちは\n";
+          } else {
+            echo "こんばんは\n";}?>
+          、ゲストさん</div>
           <a class="month">2016年10月の日記</a><br>
           <a class="month">2016年11月の日記</a><br>
           <a class="month">2016年12月の日記</a><br>
