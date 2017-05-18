@@ -1,3 +1,12 @@
+<?php 
+require('dbconnect.php');
+require('funvtion.php');
+
+//日記データの取得
+$sql = 'SELECT * FROM `diary` WHERE `title` , `coments` , 'created';
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="ja">
 <head >
