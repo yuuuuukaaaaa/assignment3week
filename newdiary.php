@@ -14,7 +14,7 @@ require('dbconnectphp');
   <title></title>
 </head>
 <body>
-  <form   <form method="POST" action="index.php">
+  <form   <form method="POST" action="top.php">
       タイトル<br>
     <input type="newdiary" name="newdiary">
     <p>新規入力画面</p>
