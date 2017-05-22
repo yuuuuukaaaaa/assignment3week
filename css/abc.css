@@ -32,9 +32,14 @@ pre{
   border-bottom:1px solid #CCC;
   padding-left: 20px;
   padding-right: 45px;
-
 }
 
+.newdiary{
+  font-size: 20px;
+  color: #0000ff;
+  padding-left: 20px;
+  padding-right: 45px;
+}
 /*メイン*/
 .main{
   border: 1px solid #ccc;
