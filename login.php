@@ -5,7 +5,7 @@ require('dbconnect.php');
 $email = '';
 $password = '';
   
-  $errors = array();
+$errors = array();
   
 // 自動ログイン機能
 if (isset($_COOKIE['email']) && $_COOKIE['email'] != '') {

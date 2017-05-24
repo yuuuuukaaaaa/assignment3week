@@ -64,7 +64,7 @@ $stmt->execute($data);
            <!-- 2ヶ月前 -->
           <a class="month"><? echo date('Y年m月', strtotime(date('Y-m-1').' -2 month')); ?></a><br>
         </p>
-        <a href="newdiary.php">日記新規登録</a>
+        <a href="newdiary/newdiary.php">日記新規登録</a>
       </div>
 
 
