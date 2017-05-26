@@ -37,7 +37,7 @@ if (!empty($_POST)){
 </head>
 <body>
   <form method="POST" action="">
-      タイトル<br>
+    <p>タイトル</p>
     <input type="newdiary" name="title" value="<?php echo $title; ?>">
     <p>日記</p>
     <textarea name="contents" cols="40" rows="5" value="<?php echo $contents; ?>"></textarea>
